@@ -7,5 +7,10 @@ title: "MetaShot"
 
 
 remote_theme: pmarsceill/just-the-docs
+
+aux_links:
+    "MetaShot on GitHub":
+      - "//github.com/metashot"
+
 color_scheme: "light"
 search_enabled: true
