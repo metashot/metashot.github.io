@@ -6,7 +6,7 @@ footer_content: "Copyright &copy; 2020 MetaShot developers"
 #url: "https://metashot.github.io"
 
 
-remote_theme: pmarsceill/just-the-docs
+remote_theme: pmarsceill/just-the-docs@v0.3.3
 
 aux_links:
     "MetaShot on GitHub":
