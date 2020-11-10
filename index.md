@@ -13,6 +13,30 @@ MetaShot is a curated set of [Docker](https://www.docker.com/) images and
 
 ---
 
+## Getting started
+
+### Dependencies
+
+MetaShot requires [Docker](https://www.docker.com/) and [Nextflow](nextflow.io).
+Alternatively you can use [Singularity](https://singularity.lbl.gov/) and
+Nextflow. If you want to use Singularity instead of Docker, comment the Docker
+lines in the `nextflow.config` file (which is present in each workflow and add
+the following:
+
+```nextflow
+singularity.enabled = true
+singularity.autoMounts = true
+```
+
+Alternatively, you can provide an extra configuration file by using the command
+line option `-c <config file>`.
+
+
+
+
+
+
+
 - ![barrnap](https://img.shields.io/docker/v/metashot/barrnap?sort=semver&label=barrnap&style=flat-square)
 
 🚀 🐼
