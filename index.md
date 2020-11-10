@@ -37,7 +37,7 @@ This example shows how to run
 [metashot/kraken2](https://github.com/metashot/kraken2), a pipeline for the
 taxonomic classification of reads and the abundance estimation of species in
 metagenomic samples. It relies on two main software,
-[Kraken2](https://ccb.jhu.edu/software/kraken2/), a software for the taxonomic
+[Kraken2](https://ccb.jhu.edu/software/kraken2/) for the taxonomic
 classification of short sequences, and
 [Bracken](https://ccb.jhu.edu/software/bracken/), which uses the predicted
 taxonomy to estimate the number of reads originating from each species in a
