@@ -1,14 +1,11 @@
 title: "MetaShot"
-description: A Jekyll theme for documentation
+description: "A Jekyll theme for documentation"
 footer_content: "Copyright &copy; 2017-2020 Patrick Marsceill. Distributed by an <a href=\"https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt\">MIT license.</a>"
 
-baseurl: ""
-url: "https://metashot.github.io"
+#baseurl: ""
+#url: "https://metashot.github.io"
 
 
 remote_theme: pmarsceill/just-the-docs
 color_scheme: "light"
 search_enabled: true
-
-ga_tracking: 
-ga_tracking_anonymize_ip: true
