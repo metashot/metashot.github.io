@@ -5,13 +5,15 @@ nav_order: 1
 permalink: /
 ---
 
-MetaShot is a curated set of [Nextflow](nextflow.io) pipelines for metagenomics
-and bacterial genomics
-{: .fs-6 .fw-300 }
+MetaShot is a curated set of [Docker](https://www.docker.com/) images and
+[Nextflow](nextflow.io) pipelines for metagenomics and bacterial genomics
+{:.fs-6 .fw-300 }
 
 [Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/pmarsceill/just-the-docs){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
+
+- ![barrnap]https://img.shields.io/docker/v/metashot/barrnap?label=barrnap&style=flat-square
 
 🚀 🐼
 
