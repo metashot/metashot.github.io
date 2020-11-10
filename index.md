@@ -28,7 +28,32 @@ singularity.autoMounts = true
 ```
 
 Alternatively, you can provide an extra configuration file by using the command
-line option `-c <config_file>`.
+line option `-c <config_file>`
+([documentation](https://www.nextflow.io/docs/latest/config.html#configuration-file)).
+
+### Quick start: run the Kraken2/Braken workflow on the local machine
+This example shows how to run
+[metashot/kraken2](https://github.com/metashot/kraken2), a pipeline for the
+taxonomic classification of reads and the abundance estimation of species in
+metagenomic samples. It relies on two main software,
+[Kraken2](https://ccb.jhu.edu/software/kraken2/), a software for the taxonomic
+classification of short sequences, and
+[Bracken](https://ccb.jhu.edu/software/bracken/), which uses the predicted
+taxonomy to estimate the number of reads originating from each species in a
+metagenomic sample.
+
+1. Download and extract/unzip a Kraken2/Bracken database available at
+   https://benlangmead.github.io/aws-indexes/k2;
+1. Start running the analysis on the compressed paired-end sequences in FASTQ
+   format:
+   
+  ```bash
+  nextflow run metashot/kraken2:1.0.1
+    --reads '*_R{1,2}.fastq.gz' \
+    --kraken2_db k2db \
+    --read_len 100 \
+    --outdir results
+  ```
 
 
 
