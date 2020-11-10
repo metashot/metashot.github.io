@@ -17,11 +17,10 @@ MetaShot is a curated set of [Docker](https://www.docker.com/) images and
 
 ### Dependencies
 
-MetaShot requires [Docker](https://www.docker.com/) and [Nextflow](nextflow.io).
-Alternatively you can use [Singularity](https://singularity.lbl.gov/) and
-Nextflow. If you want to use Singularity instead of Docker, comment the Docker
-lines in the `nextflow.config` file (which is present in each workflow and add
-the following:
+MetaShot requires [Docker](https://www.docker.com/) (or
+[Singularity](https://singularity.lbl.gov/)) and [Nextflow](nextflow.io). If you
+want to use Singularity instead of Docker, comment the Docker lines in the
+`nextflow.config` file (which is present in each workflow and add the following:
 
 ```nextflow
 singularity.enabled = true
@@ -29,7 +28,8 @@ singularity.autoMounts = true
 ```
 
 Alternatively, you can provide an extra configuration file by using the command
-line option `-c <config file>`.
+line option `-c <config_file>`.
+
 
 
 
