@@ -13,7 +13,7 @@ MetaShot is a curated set of [Docker](https://www.docker.com/) images and
 
 ---
 
-- ![barrnap]https://img.shields.io/docker/v/metashot/barrnap?sort=semver&label=barrnap&style=flat-square
+- ![barrnap](https://img.shields.io/docker/v/metashot/barrnap?sort=semver&label=barrnap&style=flat-square)
 
 🚀 🐼
 
