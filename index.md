@@ -20,9 +20,10 @@ MetaShot is a curated set of [Docker](https://www.docker.com/) images and
 MetaShot requires [Docker](https://www.docker.com/) (or
 [Singularity](https://singularity.lbl.gov/)) and [Nextflow](nextflow.io). If you
 want to use Singularity instead of Docker, comment the Docker lines in the
-`nextflow.config` file (which is present in each workflow and add the following:
+`nextflow.config` file (this file is present in each workflow) and add the
+following:
 
-```nextflow
+```groovy
 singularity.enabled = true
 singularity.autoMounts = true
 ```
@@ -42,13 +43,13 @@ classification of short sequences, and
 taxonomy to estimate the number of reads originating from each species in a
 metagenomic sample.
 
-1. Download and extract/unzip a Kraken2/Bracken database available at
-   https://benlangmead.github.io/aws-indexes/k2;
+1. Download and extract/unzip a Kraken2/Bracken database available at [this
+   page](https://benlangmead.github.io/aws-indexes/k2);
 1. Start running the analysis on the compressed paired-end sequences in FASTQ
    format:
    
   ```bash
-  nextflow run metashot/kraken2:1.0.1
+  nextflow run metashot/kraken2:1.0.1 \
     --reads '*_R{1,2}.fastq.gz' \
     --kraken2_db k2db \
     --read_len 100 \
