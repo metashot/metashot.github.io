@@ -80,9 +80,9 @@ data with the `-r` parameter, e.g.:
     ...
 ```
 
-The workflows use the docker images available at
-https://hub.docker.com/u/metashot/ for reproducibility. You can check the
-version of the software used in each workflow by opening the file
+The workflows use the docker images available at [MetaShot Docker Hub
+repositories](https://hub.docker.com/u/metashot/) for reproducibility. You can
+check the version of the software used in each workflow by opening the file
 `process.config`. For example `container = metashot/kraken2:2.0.9-beta-6` means
 that the version of kraken2 is the `2.0.9-beta` (the last number, 6, is the
 metashot release of this image).
