@@ -12,5 +12,5 @@ aux_links:
     "MetaShot on GitHub":
       - "//github.com/metashot"
 
-color_scheme: "metashot"
+color_scheme: metashot
 search_enabled: true
