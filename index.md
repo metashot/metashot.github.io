@@ -76,8 +76,7 @@ We recommend to specify a pipeline version when running the pipeline on your
 data with the `-r` parameter, e.g.:
 
 ```bash
-  nextflow run metashot/kraken2 -r 1.0.0
-    ...
+  nextflow run metashot/kraken2 -r 1.0.0 ...
 ```
 
 The workflows use the docker images available at [MetaShot Docker Hub
