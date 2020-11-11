@@ -13,7 +13,7 @@ pipeline version when running the workflow on your data with the `-r` parameter,
 e.g. `-r 1.0.0`.
 
 
-| Workflow              | Description                                                             | Release                                                                                                    |
-|:----------------------|:------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------|
-| mag-illumina          | Metagenomic Assembled Genomes from Illumina<br>sequences                | ![metashot](https://img.shields.io/github/v/release/metashot/mag-illumina?sort=semver)                     |
-| mag-illumina          | Metagenomic Assembled Genomes from Illumina sequences                   | ![metashot](https://img.shields.io/github/v/release/metashot/mag-illumina?sort=semver)                     |
+| Workflow              | Description                                                             | Release                                                                                                        |
+|:----------------------|:------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------|
+| kraken2               | Taxonomic classification of reads and abundance estimation of species in metagenomic samplesMetagenomic Assembled Genomes from Illumina<br>sequences                | ![kraken2](https://img.shields.io/github/v/release/metashot/mag-kraken2?sort=semver)                           |
+| mag-illumina          | Metagenomic Assembled Genomes from Illumina sequences                   | ![mag-illumina](https://img.shields.io/github/v/release/metashot/mag-illumina?sort=semver)                     |
