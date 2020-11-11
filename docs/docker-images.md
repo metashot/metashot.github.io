@@ -29,5 +29,4 @@ release of that image (e.g. the first image release of the software version
 - ![bbtools](https://img.shields.io/docker/v/metashot/bbtools?sort=semver&link=https://hub.docker.com/repository/docker/metashot/bbtools)
 
 
-[1]: [*Ten simple rules for writing Dockerfiles for reproducible data
-     science*](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008316)
+[1]: [*Ten simple rules for writing Dockerfiles for reproducible data science*](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008316)
