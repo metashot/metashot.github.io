@@ -7,17 +7,13 @@ permalink: /workflows/
 
 # Workflows
 
-The MetaShot workflows use the Docker images for reproducibility [[1]](#1). The
-last number of the Docker image version (e.g. 1 in `2.0.3-1`) represent the
-MetaShot release of that image (e.g. the first image release of the software
-version `2.0.3`). Note that the `latest` tag is not present. Images are
-available at the [MetaShot Docker Hub](https://hub.docker.com/u/metashot/). The
-Dockerfiles are available at the
-[metashot/docker](https://github.com/metashot/docker) repository.
+MetaShot provides a curated, easy-to-use collection of [Nextflow](nextflow.io)
+pipelines for metagenomics and bacterial genomics. We recommend to specify a
+pipeline version when running the workflow on your data with the `-r` parameter,
+e.g. `-r 1.0.0`.
 
----
 
-<a name="1">[1]</a> Nüst D, Sochat V, Marwick B, Eglen SJ, Head T, et al. (2020)
-                    _Ten simple rules for writing Dockerfiles for reproducible
-                    data science_. PLOS Computational Biology 16(11): e1008316.
-                    [Link](https://doi.org/10.1371/journal.pcbi.1008316).
+| Workflow              | Description                                                             | Version                                                                                                    |
+|:----------------------|:------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------|
+| mag-illumina          | Metagenomic Assembled Genomes from<br>Illumina sequences                | ![metashot](https://img.shields.io/github/v/release/metashot/mag-illumina?sort=semver)                     |
+| mag-illumina          | Metagenomic Assembled Genomes from<br>Illumina sequences                | ![metashot](https://img.shields.io/github/v/release/metashot/mag-illumina?sort=semver)                     |

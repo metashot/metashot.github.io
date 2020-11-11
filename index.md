@@ -72,7 +72,7 @@ requests by either:
 - modifying the `process.config` file.
 
 ## Reproducibility
-We recommend to specify a pipeline version when running the pipeline on your
+We recommend to specify a pipeline version when running the workflow on your
 data with the `-r` parameter, e.g.:
 
 ```bash
