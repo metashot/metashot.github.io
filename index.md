@@ -35,28 +35,29 @@ line option `-c <config_file>`
 ### Quick start: run the Kraken2/Braken workflow on the local machine
 This example shows how to run
 [metashot/kraken2](https://github.com/metashot/kraken2), a pipeline for the
-taxonomic classification of reads and the abundance estimation of species in
-metagenomic samples. It relies on two main software,
-[Kraken2](https://ccb.jhu.edu/software/kraken2/) for the taxonomic
-classification of short sequences, and
-[Bracken](https://ccb.jhu.edu/software/bracken/), which uses the predicted
-taxonomy to estimate the number of reads originating from each species in a
-metagenomic sample.
+taxonomic classification of reads and abundance estimation of species in
+metagenomic samples. It relies on two related software,
+[Kraken2](https://ccb.jhu.edu/software/kraken2/) and
+[Bracken](https://ccb.jhu.edu/software/bracken/).
 
 1. Download and extract/unzip a Kraken2/Bracken database available at [this
    page](https://benlangmead.github.io/aws-indexes/k2);
 1. Start running the analysis on the compressed paired-end sequences in FASTQ
    format:
    
-  ```bash
-  nextflow run metashot/kraken2:1.0.1 \
-    --reads '*_R{1,2}.fastq.gz' \
-    --kraken2_db k2db \
-    --read_len 100 \
-    --outdir results
-  ```
+   ```bash
+   nextflow run metashot/kraken2 -r 1.0.1 \
+     --reads '*_R{1,2}.fastq.gz' \
+     --kraken2_db k2db \
+     --read_len 100 \
+     --outdir results
+   ```
+2. The pipeline will create in the `results` folder the following directories:
 
-
+   ```bash
+   ls results
+   bracken  bracken_combined  kraken2  raw_reads_stats
+   ```
 
 
 
