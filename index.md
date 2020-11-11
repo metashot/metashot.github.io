@@ -52,13 +52,24 @@ metagenomic samples. It relies on two related software,
      --read_len 100 \
      --outdir results
    ```
-2. The pipeline will create in the `results` folder the following directories:
+1. The pipeline will create in the `results` folder the following directories:
 
    ```bash
-   ls results
    bracken  bracken_combined  kraken2  raw_reads_stats
    ```
 
+## System requirements
+Each step in the pipeline has a default set of requirements for number of CPUs,
+memory and time. For some of the steps in the pipeline, if the job exits with an
+error it will automatically resubmit with higher requests (see the file
+`process.config`). You can customize the compute resources that the pipeline
+requests by either:
+- setting the global parameters `--max_cpus`, `--max_memory` and
+  `--max_time` in the command line, or
+- creating a [custom config
+  file](https://www.nextflow.io/docs/latest/config.html#configuration-file)
+  (`-c` or `-C` parameters), or
+- modifying the `process.config` file.
 
 
 
