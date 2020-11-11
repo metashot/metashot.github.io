@@ -7,7 +7,7 @@ permalink: /docker/
 
 # Docker images
 
-The MetaShot workflows use the Docker images for reproducibility [[1]](#1)_. The last
+The MetaShot workflows use the Docker images for reproducibility [[1]](#1). The last
 number of the Docker image version (e.g. 1 in `2.0.3-1`) represent the MetaShot
 release of that image (e.g. the first image release of the software version
 `2.0.3`). Note that the `latest` tag is not present. Images are available at the
