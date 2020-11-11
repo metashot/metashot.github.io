@@ -13,7 +13,7 @@ pipeline version when running the workflow on your data with the `-r` parameter,
 e.g. `-r 1.0.0`.
 
 
-| Workflow              | Description                                                             | Version                                                                                                    |
+| Workflow              | Description                                                             | Release                                                                                                    |
 |:----------------------|:------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------|
-| mag-illumina          | Metagenomic Assembled Genomes from<br>Illumina sequences                | ![metashot](https://img.shields.io/github/v/release/metashot/mag-illumina?sort=semver)                     |
-| mag-illumina          | Metagenomic Assembled Genomes from<br>Illumina sequences                | ![metashot](https://img.shields.io/github/v/release/metashot/mag-illumina?sort=semver)                     |
+| mag-illumina          | Metagenomic Assembled Genomes from Illumina<br>sequences                | ![metashot](https://img.shields.io/github/v/release/metashot/mag-illumina?sort=semver)                     |
+| mag-illumina          | Metagenomic Assembled Genomes from Illumina sequences                   | ![metashot](https://img.shields.io/github/v/release/metashot/mag-illumina?sort=semver)                     |
