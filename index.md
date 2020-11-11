@@ -87,9 +87,14 @@ check the version of the software used in each workflow by opening the file
 that the version of kraken2 is the `2.0.9-beta` (the last number, 6, is the
 metashot release of this image).
 
-
+## Credits
+MetaShot is maintained by Davide Albanese and Claudio Donati at the [FEM's Unit
+of Computational
+Biology](https://www.fmach.it/eng/CRI/general-info/organisation/Chief-scientific-office/Computational-biology).
 
 - ![barrnap](https://img.shields.io/docker/v/metashot/barrnap?sort=semver&label=barrnap&style=flat-square)
+https://hub.docker.com/r/metashot/barrnap
+
 
 🚀 🐼
 
