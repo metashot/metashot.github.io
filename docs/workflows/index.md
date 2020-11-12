@@ -27,7 +27,7 @@ e.g. `-r 1.0.0`.
 | prok-quality          | Assessing the quality of prokaryotic genomes, filtering and dereplication                     | ![prok-quality](prok_quality_release)    |
 | prok-classify         | Assign objective taxonomic classifications to prokaryotic genomes                             | ![prok-classify](prok_classify_release)  |
 | prok-annotate         | Functional annotation fo prokaryotic contigs/genomes through orthology assignment             | ![prok-annotate](prok_annotate_release)  |
-| prok-snp              | SNVs identification and phylogenetic tree inference from prokaryotic isolates                 | ![prok-snp](prok_snp_release)                    |
+| prok-snp              | SNVs identification and phylogenetic tree inference from prokaryotic isolates                 | ![prok-snp](prok_snp_release)            |
 
 
 [kraken2_release]: https://img.shields.io/github/v/release/metashot/kraken2?sort=semver "kraken2 release"
