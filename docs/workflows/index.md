@@ -13,16 +13,21 @@ pipelines for metagenomics and bacterial genomics. We recommend to specify a
 pipeline version when running the workflow on your data with the `-r` parameter,
 e.g. `-r 1.0.0`.
 
+## Metangenomics
 
 | Workflow              | Description                                                                                   | Release                                                                                                        |
-|:----------------------|:----------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------|
-| kraken2                | Taxonomic classification of reads and abundance estimation of species in metagenomic samples  | ![kraken2][kraken2_release]                               |
-| mag-illumina          | Metagenomic Assembled Genomes from Illumina sequences                                         | ![mag-illumina](https://img.shields.io/github/v/release/metashot/mag-illumina?sort=semver)                     |
-| kraken2               | Taxonomic classification of reads and abundance estimation of species in metagenomic samples  | ![kraken2](https://img.shields.io/github/v/release/metashot/kraken2?sort=semver)                               |
-| mag-illumina          | Metagenomic Assembled Genomes from Illumina sequences                                         | ![mag-illumina](https://img.shields.io/github/v/release/metashot/mag-illumina?sort=semver)                     |
+|:----------------------|:----------------------------------------------------------------------------------------------|:-----------------------------------------|
+| kraken2               | Taxonomic classification of reads and abundance estimation of species in metagenomic samples  | ![kraken2][kraken2_release]              |
+| mag-illumina          | Metagenomic Assembled Genomes from Illumina sequences                                         | ![mag-illumina](mag-illumina_release)            |
 
+## Prokaryotic genomes
 
-
+| Workflow              | Description                                                                                   | Release                                                                                                        |
+|:----------------------|:----------------------------------------------------------------------------------------------|:-----------------------------------------|
+| prok-quality          | Assessing the quality of prokaryotic genomes, filtering and dereplication                     | ![prok-quality](prok-quality_release)    |
+| prok-classify         | Assign objective taxonomic classifications to prokaryotic genomes                             | ![prok-classify](prok-classify_release)  |
+| prok-annotate         | Functional annotation fo prokaryotic contigs/genomes through orthology assignment             | ![prok-annotate](prok-annotate_release)  |
+| prok-snp              | SNVs identification and phylogenetic tree inference from prokaryotic isolates                 | ![prok-snp](prok-snp)                    |
 
 
 [kraken2_release]: https://img.shields.io/github/v/release/metashot/kraken2?sort=semver "kraken2 release"

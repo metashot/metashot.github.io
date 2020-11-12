@@ -26,7 +26,7 @@ abundance estimation of species in metagenomic samples.
 
 ## Quick start
 
-1. Install Docker (or Singulariry) and Nextflow ([Dependences](/#dependencies));
+1. Install Docker (or Singulariry) and Nextflow (see [Dependences](/#dependencies));
 1. Download and extract/unzip a Kraken 2 / Bracken database available at
    https://benlangmead.github.io/aws-indexes/k2;
 1. Start running the analysis:
@@ -48,13 +48,13 @@ for the complete list of parameters.
 The files and directories listed below will be created in the results directory
 after the pipeline has finished.
 
-### Main
+### Main outputs
 - `kraken2`: kraken2 outputs (including the report file) for each input
   sample;
 - `bracken_combined`: single text tab-delimined file with estimated
   abundance across all samples for each taxonomic level.
 
-### Secondary
+### Secondary outputs
 - `raw_reads_stats`: base frequency, quality scores, gc content, average
   quality and length for each input sample;
 - `bracken`: bracken output for each taxonomic level (from Domain `D` to
