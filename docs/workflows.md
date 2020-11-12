@@ -22,7 +22,6 @@ e.g. `-r 1.0.0`.
 
 
 
-Reference-style: 
-![alt text][logo]
 
-[kraken2_release]: ![kraken2](https://img.shields.io/github/v/release/metashot/kraken2?sort=semver&link=https://github.com/metashot/kraken2) "kraken2 release"
+
+[kraken2_release]: https://img.shields.io/github/v/release/metashot/kraken2?sort=semver&link=https://github.com/metashot/kraken2 "kraken2 release"
