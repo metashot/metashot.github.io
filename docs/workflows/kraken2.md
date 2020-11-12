@@ -39,6 +39,7 @@ abundance estimation of species in metagenomic samples.
     --outdir results
   ```
 
+## Parameters
 See the file
 [`nextflow.config`](https://github.com/metashot/kraken2/blob/master/nextflow.config)
 for the complete list of parameters.
