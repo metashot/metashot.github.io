@@ -13,7 +13,7 @@ MetaShot release of that image (e.g. the first image release of the software
 version `2.0.3`). Note that the `latest` tag is not present. Images are
 available at the [MetaShot Docker Hub](https://hub.docker.com/u/metashot/). The
 Dockerfiles are available at the
-[metashot/docker](https://github.com/metashot/docker) repository.
+[metashot/docker](https://github.com/metashot/docker) repository[^2].
 
 ---
 
@@ -21,3 +21,5 @@ Dockerfiles are available at the
                     _Ten simple rules for writing Dockerfiles for reproducible
                     data science_. PLOS Computational Biology 16(11): e1008316.
                     [Link](https://doi.org/10.1371/journal.pcbi.1008316).
+
+[^2]: Other footnote.
