@@ -15,19 +15,19 @@ e.g. `-r 1.0.0`.
 
 ## Metangenomics
 
-| Workflow              | Description                                                                                   | Release                                                                                                        |
-|:----------------------|:----------------------------------------------------------------------------------------------|:-----------------------------------------|
-| kraken2               | Taxonomic classification of reads and abundance estimation of species in metagenomic samples  | ![kraken2][kraken2_release]              |
-| mag-illumina          | Metagenomic Assembled Genomes from Illumina sequences                                         | ![mag_illumina](mag_illumina_release)    |
+| Workflow        | Description                                                                       | 
+|:----------------|:----------------------------------------------------------------------------------|
+| kraken2         | Taxonomic classification of reads and abundance estimation of species             |
+| mag-illumina    | Metagenomic Assembled Genomes from Illumina sequences                             |
 
 ## Prokaryotic genomes
 
-| Workflow              | Description                                                                                   | Release                                                                                                        |
-|:----------------------|:----------------------------------------------------------------------------------------------|:-----------------------------------------|
-| prok-quality          | Assessing the quality of prokaryotic genomes, filtering and dereplication                     | ![prok-quality](prok_quality_release)    |
-| prok-classify         | Assign objective taxonomic classifications to prokaryotic genomes                             | ![prok-classify](prok_classify_release)  |
-| prok-annotate         | Functional annotation fo prokaryotic contigs/genomes through orthology assignment             | ![prok-annotate](prok_annotate_release)  |
-| prok-snp              | SNVs identification and phylogenetic tree inference from prokaryotic isolates                 | ![prok-snp](prok_snp_release)            |
+| Workflow        | Description                                                                       |
+|:----------------|:----------------------------------------------------------------------------------|
+| prok-quality    | Assessing the quality of prokaryotic genomes, filtering and dereplication         |
+| prok-classify   | Assign objective taxonomic classifications to prokaryotic genomes                 |
+| prok-annotate   | Functional annotation fo prokaryotic contigs/genomes through orthology assignment |
+| prok-snp        | SNVs identification and phylogenetic tree inference from prokaryotic isolates     |
 
 
 [kraken2_release]: https://img.shields.io/github/v/release/metashot/kraken2?sort=semver "kraken2 release"
