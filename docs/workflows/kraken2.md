@@ -10,3 +10,6 @@ parent: Workflows
 
 Test
 
+{% capture my_include %}{% include https://raw.githubusercontent.com/metashot/kraken2/master/README.md %}{% endcapture %}
+{{ my_include | markdownify }}
+
