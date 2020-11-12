@@ -44,16 +44,20 @@ See the file
 for the complete list of parameters.
 
 ## Output
-Several directories will be created in the `results` folder:
+The files and directories listed below will be created in the results directory
+after the pipeline has finished.
 
-- `raw_reads_stats`: base frequency, quality scores, gc content, average
-  quality and length for each input sample;
+### Main
 - `kraken2`: kraken2 outputs (including the report file) for each input
   sample;
-- `bracken`: bracken output for each taxonomic level (from Domain `D` to
-  Species `S`) for each sample;
 - `bracken_combined`: single text tab-delimined file with estimated
   abundance across all samples for each taxonomic level.
+
+### Secondary
+- `raw_reads_stats`: base frequency, quality scores, gc content, average
+  quality and length for each input sample;
+- `bracken`: bracken output for each taxonomic level (from Domain `D` to
+  Species `S`) for each sample.
 
 ## Memory requirements
 Kraken 2 requires enough free memory to hold the index in RAM. If the index size
