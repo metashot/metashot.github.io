@@ -8,11 +8,13 @@ parent: Workflows
 
 # kraken2
 
+![kraken2](https://img.shields.io/github/v/release/metashot/kraken2?sort=semver&label=Latast%20release&style=for-the-badge)
+
 metashot/kraken2 is a workflow for the taxonomic classification of reads and the
 abundance estimation of species in metagenomic samples.
 
 [View it on GitHub](https://github.com/metashot){: .btn .fs-5 .mb-4 .mb-md-0 }
-![kraken2](https://img.shields.io/github/v/release/metashot/kraken2?sort=semver&label=Latast%20release&style=for-the-badge)
+
 
 ## Main features
 
