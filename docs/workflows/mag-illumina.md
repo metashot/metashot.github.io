@@ -68,7 +68,7 @@ after the pipeline has finished.
 - `qc`: statistaics about the adapter trimming and the contaminant filtering;
 - `spades`: Spades log for each input sample;
 - `assembly_stats`: scaffold statistics for each each assembly;
-- `metabat2`: metabat2 log and the depth of coverage for each assembly;
+- `metabat2`: metabat2 log and the depth of coverage for each assembly.
 
 ## System requirements
 Please refer to [System requirements](/#system-requirements) for the complete
