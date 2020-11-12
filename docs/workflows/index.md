@@ -18,7 +18,7 @@ e.g. `-r 1.0.0`.
 | Workflow              | Description                                                                                   | Release                                                                                                        |
 |:----------------------|:----------------------------------------------------------------------------------------------|:-----------------------------------------|
 | kraken2               | Taxonomic classification of reads and abundance estimation of species in metagenomic samples  | ![kraken2][kraken2_release]              |
-| mag-illumina          | Metagenomic Assembled Genomes from Illumina sequences                                         | ![mag-illumina](mag_illumina_release)    |
+| mag-illumina          | Metagenomic Assembled Genomes from Illumina sequences                                         | ![mag_illumina](mag_illumina_release)    |
 
 ## Prokaryotic genomes
 
