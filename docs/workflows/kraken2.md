@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Kraken
-nav_order: 2
+title: Kraken2
+nav_order: 1
 permalink: /workflows/kraken2
 parent: Workflows
 ---
