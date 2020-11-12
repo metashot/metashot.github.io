@@ -9,3 +9,5 @@ parent: Workflows
 # kraken2
 
 Test
+
+{% include https://raw.githubusercontent.com/metashot/kraken2/master/README.md %}
