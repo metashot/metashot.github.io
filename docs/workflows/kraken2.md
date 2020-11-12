@@ -10,4 +10,3 @@ parent: Workflows
 
 Test
 
-{% include https://raw.githubusercontent.com/metashot/kraken2/master/README.md %}
