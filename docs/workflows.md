@@ -15,7 +15,7 @@ e.g. `-r 1.0.0`.
 
 | Workflow              | Description                                                                                   | Release                                                                                                        |
 |:----------------------|:----------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------|
-| kraken2               | Taxonomic classification of reads and abundance estimation of species in metagenomic samples  | ![kraken2][kraken2_release]                               |
+| [Link button]({% link _collection/name-of-document.md %}){: .btn .btn-blue }               | Taxonomic classification of reads and abundance estimation of species in metagenomic samples  | ![kraken2][kraken2_release]                               |
 | mag-illumina          | Metagenomic Assembled Genomes from Illumina sequences                                         | ![mag-illumina](https://img.shields.io/github/v/release/metashot/mag-illumina?sort=semver)                     |
 | kraken2               | Taxonomic classification of reads and abundance estimation of species in metagenomic samples  | ![kraken2](https://img.shields.io/github/v/release/metashot/kraken2?sort=semver)                               |
 | mag-illumina          | Metagenomic Assembled Genomes from Illumina sequences                                         | ![mag-illumina](https://img.shields.io/github/v/release/metashot/mag-illumina?sort=semver)                     |
@@ -24,4 +24,9 @@ e.g. `-r 1.0.0`.
 
 
 
-[kraken2_release]: https://img.shields.io/github/v/release/metashot/kraken2?sort=semver&link=https://github.com/metashot/kraken2 "kraken2 release"
+[kraken2_release]: https://img.shields.io/github/v/release/metashot/kraken2?sort=semver "kraken2 release"
+[mag-illumina_release]: https://img.shields.io/github/v/release/metashot/mag-illumina?sort=semver "mag-illumina release"
+[prok-quality_release]: https://img.shields.io/github/v/release/metashot/prok-quality?sort=semver "prok-quality release"
+[prok-classify_release]: https://img.shields.io/github/v/release/metashot/prok-classify?sort=semver "prok-classify release"
+[prok-annotate_release]: https://img.shields.io/github/v/release/metashot/prok-annotate?sort=semver "prok-annotate release"
+[prok-snp_release]: https://img.shields.io/github/v/release/metashot/prok-snp?sort=semver "prok-snp release"
