@@ -13,7 +13,7 @@ parent: Workflows
 metashot/kraken2 is a workflow for the taxonomic classification of reads and the
 abundance estimation of species in metagenomic samples.
 
-[View it on GitHub](https://github.com/metashot){: .btn .fs-5 .mb-4 .mb-md-0 }
+[View it on GitHub](https://github.com/metashot){: .btn .fs-5}
 
 
 ## Main features
