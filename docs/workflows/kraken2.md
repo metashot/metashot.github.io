@@ -26,6 +26,8 @@ abundance estimation of species in metagenomic samples.
 
 ## Quick start
 
+1. Install Docker (or Singulariry) and Nextflow
+   |([Dependences](/#Dependencies));
 1. Download and extract/unzip a Kraken 2 / Bracken database available at
    https://benlangmead.github.io/aws-indexes/k2;
 1. Start running the analysis:
@@ -55,8 +57,9 @@ Several directories will be created in the `results` folder:
   abundance across all samples for each taxonomic level.
 
 ## Memory requirements
-Please refer to [System requirements](/) for general requirements settings.
-
 Kraken 2 requires enough free memory to hold the index in RAM. If the index size
 is 47 GB (standard database, 2020/09/19) you will need slightly more  than that
 free in RAM (set the `--max_memory` parameter to `64.GB`).
+
+Please refer to [System requirements](/#system-requirements) for the complete
+list of system requirements options.
