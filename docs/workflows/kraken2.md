@@ -26,8 +26,7 @@ abundance estimation of species in metagenomic samples.
 
 ## Quick start
 
-1. Install Docker (or Singulariry) and Nextflow
-   |([Dependences](/#Dependencies));
+1. Install Docker (or Singulariry) and Nextflow ([Dependences](/#dependencies));
 1. Download and extract/unzip a Kraken 2 / Bracken database available at
    https://benlangmead.github.io/aws-indexes/k2;
 1. Start running the analysis:
