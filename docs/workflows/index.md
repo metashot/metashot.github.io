@@ -3,6 +3,7 @@ layout: default
 title: Workflows
 nav_order: 3
 permalink: /workflows/
+has_children: true
 ---
 
 # Workflows
