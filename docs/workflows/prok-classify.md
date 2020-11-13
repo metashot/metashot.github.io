@@ -30,18 +30,19 @@ Taxonomy GTDB.
 1. Install Docker (or Singulariry) and Nextflow (see [Dependences](/#dependencies));
 1. Download and extract/unzip the GTDB-TK reference data (see
    https://ecogenomics.github.io/GTDBTk/installing/index.html#gtdb-tk-reference-data):
-  ```bash
-  wget https://data.ace.uq.edu.au/public/gtdb/data/releases/release95/95.0/auxillary_files/gtdbtk_r95_data.tar.gz
-  tar xvzf gtdbtk_r95_data.tar.gz
-  ```
+
+   ```bash
+   wget https://data.ace.uq.edu.au/public/gtdb/data/releases/release95/95.0/auxillary_files/gtdbtk_r95_data.tar.gz
+   tar xvzf gtdbtk_r95_data.tar.gz
+   ```
 1. Start running the analysis:
 
-  ```bash
-  nextflow run metashot/prok-classify \
-    --genomes "data/*.fa" \
-    --gtdbtk_db ./release95 \
-    --outdir results
-  ```
+   ```bash
+   nextflow run metashot/prok-classify \
+     --genomes "data/*.fa" \
+     --gtdbtk_db ./release95 \
+     --outdir results
+   ```
 
 ## Parameters
 See the file
