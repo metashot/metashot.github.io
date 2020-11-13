@@ -8,7 +8,7 @@ parent: Workflows
 
 # prok-annotate
 
-![annotate](https://img.shields.io/github/v/release/metashot/prok-annotate?sort=semver&label=Latast%20release&style=for-the-badge)
+![prok-annotate](https://img.shields.io/github/v/release/metashot/prok-annotate?sort=semver&label=Latast%20release&style=for-the-badge)
 
 metashot/prok-annotate is a workflow for functional annotation of prokaryotic
 contigs/genomes.
