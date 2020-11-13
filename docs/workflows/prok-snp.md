@@ -1,7 +1,7 @@
 ---
 layout: default
 title: prok-snp
-nav_order: 5
+nav_order: 6
 permalink: /workflows/prok-snp
 parent: Workflows
 ---
@@ -96,6 +96,16 @@ list of system requirements options.
 
 ---
 
-[^1]: https://doi.org/10.1101/186478
-[^2]: https://doi.org/10.1007/s11265-007-0067-4
-[^3]: https://doi.org/10.1080/10635150802429642
+[^1]: Tamuri A., GoldmanAvoiding N. *Ascertainment bias in the maximum
+      likelihood inference of phylogenies based on truncated data*. bioRxiv
+      186478, [Link](https://doi.org/10.1101/186478).
+
+[^2]: Stamatakis A., Blagojevic F., Nikolopoulos D.S. et al. *Exploring New
+      Search Algorithms and Hardware for Phylogenetics: RAxML Meets the IBM*
+      Cell. J VLSI Sign Process Syst Sign Im 48, 271–286 (2007).
+      [Link](https://doi.org/10.1007/s11265-007-0067-4). 
+      
+[^3]: Stamatakis A., Hoover P., Rougemont J. *A Rapid Bootstrap Algorithm for
+      the RAxML Web Servers*. Systematic Biology, Volume 57, Issue 5, October
+      2008, Pages 758–771, [Link](https://doi.org/10.1080/10635150802429642).
+
