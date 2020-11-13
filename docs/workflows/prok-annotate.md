@@ -1,7 +1,7 @@
 ---
 layout: default
 title: prok-annotate
-nav_order: 4
+nav_order: 5
 permalink: /workflows/prok-annotate
 parent: Workflows
 ---
@@ -23,7 +23,6 @@ contigs/genomes.
 - Functional annotation through orthology assignment by
   [eggNOG-mapper](https://github.com/eggnogdb/eggnog-mapper) v2 and the [eggNOG
   v5.0](http://eggnog-mapper.embl.de/) database.
-
 
 ## Quick start
 
