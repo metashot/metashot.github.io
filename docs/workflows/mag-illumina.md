@@ -8,7 +8,7 @@ parent: Workflows
 
 # mag-illumina
 
-![kraken2](https://img.shields.io/github/v/release/metashot/mag-illumina?sort=semver&label=Latast%20release&style=for-the-badge)
+![mag_illumina](https://img.shields.io/github/v/release/metashot/mag-illumina?sort=semver&label=Latast%20release&style=for-the-badge)
 
 metashot/mag-illumina is a workflow for the assembly and binning of Illumina
 sequences from metagenomic samples.

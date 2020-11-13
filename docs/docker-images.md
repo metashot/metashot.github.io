@@ -15,6 +15,8 @@ version `2.0.3`). Note that the `latest` tag is not present.
 [View it on GitHub](https://github.com/metashot/docker){: .btn .fs-5 .mr-2 }
 [View it on Docker Hub](https://hub.docker.com/u/metashot/){: .btn .fs-5 .btn-blue }
 
+---
+
 [^1]: Nüst D, Sochat V, Marwick B, Eglen SJ, Head T, et al. (2020) *Ten simple
       rules for writing Dockerfiles for reproducible data science*. PLOS
       Computational Biology 16(11): e1008316.
