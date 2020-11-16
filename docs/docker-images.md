@@ -15,8 +15,7 @@ version `2.0.3`). Note that the `latest` tag is not present.
 [View it on GitHub](https://github.com/metashot/docker){: .btn .fs-5 .mr-2 }
 [View it on Docker Hub](https://hub.docker.com/u/metashot/){: .btn .fs-5 .btn-blue }
 
-{% capture my_include %}{% include https://raw.githubusercontent.com/metashot/prok-annotate/master/README.md %}{% endcapture %}
-{{ my_include | markdownify }}
+{% include https://raw.githubusercontent.com/metashot/prok-annotate/master/README.md %}
 
 ---
 
