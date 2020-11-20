@@ -12,8 +12,8 @@ metashot/prok-quality is a pipeline for assessing the quality of prokaryotic
 genomes including the prediction of rRNA and tRNA genes (in according to the
 MISAG and the MIMAG standards[^1].
 
-[View it on GitHub](https://github.com/metashot/prok-quality){: .btn .fs-5}
-
+[View it on GitHub](https://github.com/metashot/prok-quality){: .btn .fs-5 .mr-2 }
+[Documentation](https://github.com/metashot/prok-quality/blob/main/README.md){: .btn .fs-5 .btn-purple }
 
 ---
 ![prok_quality](https://img.shields.io/github/v/release/metashot/prok-quality?sort=semver&label=Latast%20release&style=for-the-badge)
