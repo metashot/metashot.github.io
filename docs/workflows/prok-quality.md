@@ -10,7 +10,8 @@ parent: Workflows
 
 metashot/prok-quality is a pipeline for assessing the quality of prokaryotic
 genomes including the prediction of rRNA and tRNA genes (MISAG and the MIMAG
-standards[^1]) {:.fs-6 .fw-300 }
+standards[^1])
+{:.fs-6 .fw-300 }
 
 [View it on GitHub](https://github.com/metashot/prok-quality){: .btn .fs-5 .mr-2 }
 [Documentation](https://github.com/metashot/prok-quality/blob/main/README.md){: .btn .fs-5 .btn-purple }
