@@ -24,9 +24,7 @@ e.g. `-r 1.0.0`.
 </details>
 
 
-#3 kraken2
-
-![kraken2](https://img.shields.io/github/v/release/metashot/kraken2?sort=semver&label=Latast%20release)
+## kraken2 ![kraken2](https://img.shields.io/github/v/release/metashot/kraken2?sort=semver&label=Latast%20release)
 
 metashot/kraken2 is a workflow for the taxonomic classification of reads and the
 abundance estimation of species in metagenomic samples.
@@ -34,9 +32,7 @@ abundance estimation of species in metagenomic samples.
 [View it on GitHub](https://github.com/metashot/kraken2){: .btn}
 
 
-## prok-quality
-
-![prok_quality](https://img.shields.io/github/v/release/metashot/prok-quality?sort=semver&label=Latast%20release)
+## prok-quality ![prok_quality](https://img.shields.io/github/v/release/metashot/prok-quality?sort=semver&label=Latast%20release)
 
 metashot/prok-quality is a pipeline for assessing the quality of prokaryotic
 genomes including the prediction of rRNA and tRNA genes (MISAG and the MIMAG
