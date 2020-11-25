@@ -65,3 +65,9 @@ metashot/prok-snp is a workflow for the identification SNVs (of closely related
 organisms) and phylogenetic tree inference from prokaryotic isolates.
 
 [Documentation](https://github.com/metashot/prok-snp){: .btn}
+
+### prok-pan
+metashot/prok-pan is a workflow for the pan genome analysis of closely related
+prokariotic genomes.
+
+[Documentation](https://github.com/metashot/prok-pan){: .btn}
