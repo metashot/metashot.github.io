@@ -71,3 +71,11 @@ metashot/prok-pan is a workflow for the pan genome analysis of closely related
 prokariotic genomes.
 
 [Documentation](https://github.com/metashot/prok-pan){: .btn}
+
+## Other
+
+### busco
+metashot/busco is a pipeline for assessing the quality of prokaryotic and
+eukaryotic genomes.
+
+[Documentation](https://github.com/metashot/busco){: .btn}
