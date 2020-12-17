@@ -78,4 +78,4 @@ prokariotic genomes.
 metashot/busco is a pipeline for assessing the quality of prokaryotic and
 eukaryotic genomes.
 
-[Documentation](https://github.com/metashot/busco){: .btn}
+[Documentation](https://github.com/metashot/prok-quality){: .btn}
