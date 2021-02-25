@@ -40,6 +40,11 @@ sequences from metagenomic samples.
 
 ## Prokaryotes
 
+### prok-assembly
+Assemble prokaryotic isolate genomes from Illumina reads.
+
+[Documentation](https://github.com/metashot/prok-assembly){: .btn}
+
 ### prok-quality
 metashot/prok-quality is a pipeline for assessing the quality of prokaryotic
 genomes including the prediction of rRNA and tRNA genes.
