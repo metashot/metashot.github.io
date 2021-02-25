@@ -38,7 +38,7 @@ sequences from metagenomic samples.
 [Documentation](https://github.com/metashot/mag-illumina){: .btn}
 
 
-## Prokaryotes
+## Prokaryotic genomes
 
 ### prok-assembly
 Assemble prokaryotic isolate genomes from Illumina reads.
