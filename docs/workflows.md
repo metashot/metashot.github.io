@@ -84,3 +84,8 @@ metashot/busco is a pipeline for assessing the quality of prokaryotic and
 eukaryotic genomes.
 
 [Documentation](https://github.com/metashot/busco){: .btn}
+
+### containment
+Containment estimation of genomes, proteomes, plasmids and other sequences.
+
+[Documentation](https://github.com/metashot/containment){: .btn}
