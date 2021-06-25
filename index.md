@@ -52,10 +52,11 @@ metagenomic samples. It relies on two related software,
      --read_len 100 \
      --outdir results
    ```
-1. The pipeline will create in the `results` folder the following directories:
+1. The pipeline will create in the `results` folder the following files and 
+   directories:
 
    ```bash
-   bracken  bracken_combined  kraken2  raw_reads_stats
+   bracken  combined_bracken  combined_bracken_mpa  combined_bracken_report  combined.kraken2.mpa  combined.kraken2.report  kraken2  raw_reads_stats
    ```
 
 ## System requirements
