@@ -38,7 +38,12 @@ sequences from metagenomic samples.
 [Documentation](https://github.com/metashot/mag-illumina){: .btn}
 
 
-## Prokaryotes
+## Prokaryotic genomes
+
+### prok-assembly
+Assemble prokaryotic isolate genomes from Illumina reads.
+
+[Documentation](https://github.com/metashot/prok-assembly){: .btn}
 
 ### prok-quality
 metashot/prok-quality is a pipeline for assessing the quality of prokaryotic
@@ -79,3 +84,8 @@ metashot/busco is a pipeline for assessing the quality of prokaryotic and
 eukaryotic genomes.
 
 [Documentation](https://github.com/metashot/busco){: .btn}
+
+### containment
+Containment estimation of genomes, proteomes, plasmids and other sequences.
+
+[Documentation](https://github.com/metashot/containment){: .btn}
