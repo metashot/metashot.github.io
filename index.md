@@ -6,7 +6,7 @@ permalink: /
 ---
 
 MetaShot is a curated set of [Docker](https://www.docker.com/) images and
-[Nextflow](nextflow.io) pipelines for metagenomics and bacterial genomics
+[Nextflow](nextflow.io) pipelines for metagenomics and microbiome genomics
 {:.fs-6 .fw-300 }
 
 [Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/metashot){: .btn .fs-5 .mb-4 .mb-md-0 }
