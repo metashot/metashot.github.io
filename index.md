@@ -40,7 +40,7 @@ line option `-c <config_file>`
 
 ### HPC environments
 MetaShot can run on several high-performance computational (HPC) environments,
-including GridEngine, SLURM, PBS Amazon AWS, Google Cloud and Microsoft Azure
+including GridEngine, SLURM, PBS, Amazon AWS, Google Cloud and Microsoft Azure
 platforms (see [this page](https://www.nextflow.io/docs/latest/executor.html)).
 
 ### Quick start: run the Kraken2/Braken workflow on the local machine
