@@ -9,7 +9,7 @@ permalink: /workflows/
 {: .no_toc }
 
 MetaShot provides a curated, easy-to-use collection of [Nextflow](nextflow.io)
-pipelines for metagenomics and bacterial genomics. We recommend to specify a
+pipelines for metagenomics and microbial genomics. We recommend to specify a
 pipeline version when running the workflow on your data with the `-r` parameter,
 e.g. `-r 1.0.0`.
 
@@ -37,6 +37,12 @@ sequences from metagenomic samples.
 
 [Documentation](https://github.com/metashot/mag-illumina){: .btn}
 
+### containment
+metashot/containment is a workflow for the containment estimation of genomes,
+proteomes, plasmids and other sequences in sequencing read sets using mash
+screen.
+
+[Documentation](https://github.com/metashot/containment){: .btn}
 
 ## Prokaryotic genomes
 
@@ -85,7 +91,3 @@ eukaryotic genomes.
 
 [Documentation](https://github.com/metashot/busco){: .btn}
 
-### containment
-Containment estimation of genomes, proteomes, plasmids and other sequences.
-
-[Documentation](https://github.com/metashot/containment){: .btn}

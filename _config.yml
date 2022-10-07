@@ -1,6 +1,6 @@
 title: "MetaShot"
-description: "A curated set of analysis pipelines for metagenomics and bacterial genomics"
-footer_content: "Copyright &copy; 2020 MetaShot developers"
+description: "A curated set of analysis pipelines for metagenomics and microbial genomics"
+footer_content: "Copyright &copy; 2022 MetaShot developers"
 
 remote_theme: pmarsceill/just-the-docs@v0.3.3
 
