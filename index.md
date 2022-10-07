@@ -20,9 +20,9 @@ MetaShot is a curated set of [Docker](https://www.docker.com/) images and
 MetaShot requires [Nextflow](nextflow.io)[^1] and
 [Docker](https://www.docker.com/). MetaShot works also with alternative
 container engines, like [Charliecloud](https://hpc.github.io/charliecloud) and
-[Singularity](https://singularity.lbl.gov/)). See [this page]
-https://www.nextflow.io/docs/latest/container.html for more information about
-Nextflow and con
+[Singularity](https://singularity.lbl.gov/)). See [this
+page](https://www.nextflow.io/docs/latest/container.html) for more information
+about Nextflow and con
 
 #### Example, use Singularity engine
 For instance, if you want to use Singularity instead of Docker, comment the
