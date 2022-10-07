@@ -17,13 +17,14 @@ MetaShot is a curated set of [Docker](https://www.docker.com/) images and
 
 ### Dependencies
 
-MetaShot requires [Nextflow](nextflow.io)[^1] and [Docker](https://www.docker.com/).
-MetaShot works also with alternative container engines, like
-[Charliecloud](https://hpc.github.io/charliecloud) and
-[Singularity](https://singularity.lbl.gov/)). See
+MetaShot requires [Nextflow](nextflow.io)[^1] and
+[Docker](https://www.docker.com/). MetaShot works also with alternative
+container engines, like [Charliecloud](https://hpc.github.io/charliecloud) and
+[Singularity](https://singularity.lbl.gov/)). See [this page]
 https://www.nextflow.io/docs/latest/container.html for more information about
-Nextflow and container engines.
+Nextflow and con
 
+#### Example, use Singularity engine
 For instance, if you want to use Singularity instead of Docker, comment the
 Docker lines in the `nextflow.config` file (this file is present in each
 workflow) and add the following:
@@ -36,6 +37,11 @@ singularity.autoMounts = true
 Alternatively, you can provide an extra configuration file by using the command
 line option `-c <config_file>`
 ([documentation](https://www.nextflow.io/docs/latest/config.html#configuration-file)).
+
+### HPC environments
+MetaShot can run on several high-performance computational (HPC) environments,
+including GridEngine, SLURM, PBS Amazon AWS, Google Cloud and Microsoft Azure
+platforms (see [this page](https://www.nextflow.io/docs/latest/executor.html)).
 
 ### Quick start: run the Kraken2/Braken workflow on the local machine
 This example shows how to run
