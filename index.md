@@ -6,7 +6,7 @@ permalink: /
 ---
 
 MetaShot is a curated set of [Docker](https://www.docker.com/) images and
-[Nextflow](nextflow.io) pipelines for metagenomics and microbiome genomics
+[Nextflow](nextflow.io) workflows for metagenomics and microbiome genomics
 {:.fs-6 .fw-300 }
 
 [Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/metashot){: .btn .fs-5 .mb-4 .mb-md-0 }
@@ -17,11 +17,16 @@ MetaShot is a curated set of [Docker](https://www.docker.com/) images and
 
 ### Dependencies
 
-MetaShot requires [Docker](https://www.docker.com/) (or
-[Singularity](https://singularity.lbl.gov/)) and [Nextflow](nextflow.io). If you
-want to use Singularity instead of Docker, comment the Docker lines in the
-`nextflow.config` file (this file is present in each workflow) and add the
-following:
+MetaShot requires [Nextflow](nextflow.io) and [Docker](https://www.docker.com/).
+MetaShot works also with alternative container engines, like
+[Charliecloud](https://hpc.github.io/charliecloud) and
+[Singularity](https://singularity.lbl.gov/)). See
+https://www.nextflow.io/docs/latest/container.html for more information about
+Nextflow and containers.
+
+For instance, if you want to use Singularity instead of Docker, comment the
+Docker lines in the `nextflow.config` file (this file is present in each
+workflow) and add the following:
 
 ```groovy
 singularity.enabled = true
@@ -88,6 +93,5 @@ that the version of kraken2 is the `2.0.9-beta` (the last number, 6, is the
 metashot release of this image).
 
 ## Credits
-MetaShot is maintained by Davide Albanese and Claudio Donati at the [FEM's Unit
-of Computational
+MetaShot is maintained by Davide Albanese at the [FEM's Unit of Computational
 Biology](https://www.fmach.it/eng/CRI/general-info/organisation/Chief-scientific-office/Computational-biology).
