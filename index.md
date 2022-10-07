@@ -17,7 +17,7 @@ MetaShot is a curated set of [Docker](https://www.docker.com/) images and
 
 ### Dependencies
 
-MetaShot requires [Nextflow](nextflow.io) and [Docker](https://www.docker.com/).
+MetaShot requires [Nextflow](nextflow.io)[^1] and [Docker](https://www.docker.com/).
 MetaShot works also with alternative container engines, like
 [Charliecloud](https://hpc.github.io/charliecloud) and
 [Singularity](https://singularity.lbl.gov/)). See
@@ -95,3 +95,7 @@ metashot release of this image).
 ## Credits
 MetaShot is maintained by Davide Albanese at the [FEM's Unit of Computational
 Biology](https://www.fmach.it/eng/CRI/general-info/organisation/Chief-scientific-office/Computational-biology).
+
+[^1]: Di Tommaso, P., Chatzou, M., Floden, E. et al. Nextflow enables
+      reproducible computational workflows. Nat Biotechnol 35, 316–319 (2017).
+      https://doi.org/10.1038/nbt.3820
