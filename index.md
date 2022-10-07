@@ -22,7 +22,7 @@ MetaShot works also with alternative container engines, like
 [Charliecloud](https://hpc.github.io/charliecloud) and
 [Singularity](https://singularity.lbl.gov/)). See
 https://www.nextflow.io/docs/latest/container.html for more information about
-Nextflow and containers.
+Nextflow and container engines.
 
 For instance, if you want to use Singularity instead of Docker, comment the
 Docker lines in the `nextflow.config` file (this file is present in each
