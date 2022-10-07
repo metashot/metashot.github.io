@@ -22,7 +22,7 @@ MetaShot requires [Nextflow](nextflow.io)[^1] and
 container engines, like [Charliecloud](https://hpc.github.io/charliecloud) and
 [Singularity](https://singularity.lbl.gov/)). See [this
 page](https://www.nextflow.io/docs/latest/container.html) for more information
-about Nextflow and con
+about Nextflow and container engines.
 
 #### Example, use Singularity engine
 For instance, if you want to use Singularity instead of Docker, comment the
