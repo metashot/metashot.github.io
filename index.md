@@ -24,7 +24,7 @@ container engines, like [Charliecloud](https://hpc.github.io/charliecloud) and
 page](https://www.nextflow.io/docs/latest/container.html) for more information
 about Nextflow and container engines.
 
-#### Example, use Singularity engine
+#### Example - Use Singularity
 For instance, if you want to use Singularity instead of Docker, comment the
 Docker lines in the `nextflow.config` file (this file is present in each
 workflow) and add the following:
