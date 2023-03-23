@@ -85,9 +85,9 @@ prokariotic genomes.
 
 ## Other
 
-### busco
-metashot/busco is a pipeline for assessing the quality of prokaryotic and
-eukaryotic genomes.
+### [aweMAGs](https://github.com/metashot/awemags)
+metashot/aweMAGs an automated workflow for large-scale microbial eukaryotic MAGs
+(metagenome assembled genomes) analysis.
 
-[Documentation](https://github.com/metashot/busco){: .btn}
+[Documentation](https://github.com/metashot/awemags){: .btn}
 
