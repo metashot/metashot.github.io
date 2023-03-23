@@ -85,7 +85,7 @@ prokariotic genomes.
 
 ## Other
 
-### [aweMAGs](https://github.com/metashot/awemags)
+### aweMAGs
 metashot/aweMAGs an automated workflow for large-scale microbial eukaryotic MAGs
 (metagenome assembled genomes) analysis.
 
